@@ -1,0 +1,58 @@
+para los iconos de bootstrap
+https://icons.getbootstrap.com/
+
+
+container-xl : este me permite no tener eso salto cuando se adapta a las diferentes pantalla
+
+
+margin
+m-1 en todo las direcciones
+mx-auto  margin izquierda a derecha auto
+
+mx-auto
+d-block
+
+d-flex 
+justify-content-center;
+align-items-center;
+
+cuando no quede muy claro que hace un elemento
+role="status"
+<span class="visually-hidden">Cargando...</span>
+
+
+w-100 / que css width:100%
+o también un d-block
+
+modal esta sola clase da un efecto mejor: fade
+  <div id="modal" class="modal fade">
+
+
+para el nav
+  <ul class="nav flex-column flex-md-row justify-content-evenly">
+
+
+la separacion se la remuevo con esto <div class="row g-0">
+
+   /* tomas los 43 de altura y llena toda la proporcion */
+        object-fit: cover; 
+
+para la separacion de columna: g-5
+para quitar las viñetas:list-unstyled
+manejo de order  <main class="col-md-8 order-1 order-md-0">
+
+FORMA DE CENTRAR CONTENIDO
+---------------------------------------------------
+NO ES LA MEJOR SOLUCCIÓN
+offeset se salta 2 columnas 
+ <div class="offset-md-2 col-md-8 bg-primary">
+otra forma de centrarlo
+ <div class="row  justify-content-md-center">
+            <div class="col-md-8 bg-primary">
+               
+  </div>
+</div>
+
+otra forma de centrar contenido
+<div class="col-md-8 mx-auto bg-primary">
+

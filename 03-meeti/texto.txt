@@ -1,0 +1,14 @@
+npm init -y
+
+
+dependencia de desarrollo
+
+npm i --save-dev bootstrap sass
+
+package.json    "compilar:sass" : "sass --watch src/scss:build/css"
+
+
+
+
+Nota:
+d-none d-sm-block : en una pantalla muy chica no lo muestre en otra si lo muestre
